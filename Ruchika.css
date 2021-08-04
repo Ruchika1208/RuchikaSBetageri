@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+margin: 0;
+padding: 0;
+}
+.container1{
+width: 100%;
+height:80vh;
+
+}
+
+
+
+.bgg {
+animation:slide 3s ease-in-out infinite alternate;
+background-image: linear-gradient(-60deg, #09f 50%,#0059ff 50%);
+bottom:0;
+left:-50%;
+opacity:.5;
+position:absolute;
+
+right:-50%;
+top:0;
+z-index:-1;
+}
+
+.bgg2 {
+animation-direction:alternate-reverse;
+animation-duration:3s;
+}
+
+.bgg3 {
+animation-duration:3s;
+}
+
+.contentt {
+background-color:rgba(255,255,255,.5);
+border-radius:.50em;
+box-shadow:0 0 .35em rgba(0,0,0,.25);
+box-sizing:border-box;
+left:50%;
+padding:10vmin;
+position:fixed;
+text-align:center;
+top:50%;
+transform:translate(-50%, -50%);
+}
+
+h1 {
+font-family:monospace;
+}
+
+@keyframes slide {
+0% {
+  transform:translateX(-25%);
+}
+100% {
+  transform:translateX(25%);
+}
+}
+
+
+.name{
+width: 100%;
+height:60vh;
+}
+
+.name1{
+width: 100%;
+height:90vh;
+}
+.container1 h1{
+text-align: center;
+margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color:black;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 6vmax;
+  animation: type 20s;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+@keyframes type{
+0%{
+   width:0ch;
+ }
+100%{
+    width:55ch;
+ }
+}
+.container1 h2{
+font-size:5vh;
+  position: absolute;
+top: 50%;
+  left: 30%;
+color: black;
+font-family: 'Dancing Script', cursive;
+}
+.progress1{
+margin: 0;
+padding: 0;
+position: absolute;
+text-align: center;
+top: 30%;
+  left: 50%;
+ 
+}
+.m{
+margin: 0;
+padding: 0;
+position: absolute;
+text-align: center;
+top: 20%;
+  left: 50%;
+
+}
+.mn{
+margin: 0;
+padding: 0;
+height: 40vh;
+background-color:#696969;
+
+
+
+}
+
+.mn h1{
+font-size: 3vw 5vh;
+
+}
+
+.txt{
+font-size: 2vw 2vh;
+margin: 0;
+padding: 0;
+margin-bottom: 10px;
+  padding-right: 0;
+  padding-bottom: 10px;
+
+  color: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.shadow1{
+border: 5px solid;
+padding: 10px;
+box-shadow: 5px 5px 5px 15px red;
+}
+
+.bg2{
+background-image:url('chair.jpg');
+background-size:cover;
+background-attachment:fixed;
+position: relative;
+}
+
+
+
+.bg2 h1{
+font-size: 8vh;
+position: relative;
+align-items: center;
+justify-content: center;
+text-align: center;
+top: 20%;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black;
+}
+
+.single-content{
+
+margin: 5%;
+position: relative;
+transition: .3s;
+box-shadow: 10px 20px 20px rgba(0,0,0,0.8);
+}
+
+.single-content .text-content,
+.single-content:after{
+position: absolute;
+left:20px;
+right: 20px
+}
+
+
+
+.single-content:after{
+content: '';
+display: block;
+background:#006fff;
+top:20px;
+bottom: 20px;
+opacity: 0;
+transform: rotate3d(-1,1,0,100deg);
+transition: .5s;
+
+}
+
+.single-content:hover:after{
+opacity: .8;
+transform: rotate3d(0,0,0,0deg);
+}
+
+.single-content img{
+width: 100%;
+height: 350px;
+
+}
+
+.text-content{
+top: 50%;
+opacity: 0;
+z-index: 1;
+transform: translate(10%,-30%);
+transition: -1s;
+text-align: center;
+color: #fff;
+font-size: 5vh;
+}
+
+.text-content h4{
+font-family: big john;
+}
+
+.single-content:hover .text-content{
+opacity: 1;
+transform: translate(0,-50%);
+transition-delay: .4s;
+}
+
+.pro{
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+margin-bottom: 10%;
+}
+
+.ptxt{
+text-align: center;
+margin-bottom: 5%;
+}
+
+.text1{
+background:#ffffff;
+text-align: center;
+margin-top: 5%;
+margin-left: 50%;
+}
+
+.con{
+background-color: #D3D3D3;
+}
+.container2{
+
+justify-content: center;
+align-items: center;
+}
+
+
+
+.t{
+top: 25%;
+}
+
+
+
+.text5{
+font-size: 70px;
+text-align: center;
+}
+
+
+.text9{
+
+margin-top: 5%;
+font-size: 4rem;
+margin-left:15%;
+
+
+}
+
+.cv{
+font-size:5vh;
+margin-left: 40%;
+margin-top: 2%;
+color:LightSlateGrey;
+}
+
+.down{
+margin-left: 60%;
+margin-top:3%;
+}
+
+
+.container{
+margin-top: 10%;
+  background-color: grey;
+}
+
+.para{
+  margin-bottom: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 0;
+  font-size: 20px;
+
+}
+
+.abt{
+  margin: 7%;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.image-center {
+margin-left: 10S%;
+margin-top:25%;
+}
+
+.contactForm{
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contactForm h2{
+  margin-top: 5%;
+  font-size: 35px;
+  color: blue;
+  
+}
+
+.inputBox{
+  height: 7px;
+  margin: 7px;
+  padding: 1%;
+  color: black;
+  font-weight: bold;
+}
+
+textarea{
+  height: 70px;
+  width: 70%;
+}
+
+.sub{
+  padding: 1%;
+   margin: 14%;
+}
+
+
+
+.contactInfo{
+  margin-top: 15%;
+  font-size: 20px;
+  color: blue;
+ 
+}
+
+.contactInfo .info{
+  margin: 10%;
+  align-items: left;
+  padding-top: 2%;
+  font-size: 21px;
+  color: black;
+  font-weight: bold;
+
+}
+
+.contactInfo h2{
+  font-size: 36px;
+  color: blue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sci{
+  text-align: center;
+  word-spacing:1.5em;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.slantedDivB{
+  margin-top: 10%;
+      position: relative;
+      width: 100%;
+      height: 500px;
+      
+      background:#bcdfeb;
+
+
+  }
+.slantedDivB:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background:#44a6c6 0.3%;
+  z-index: 1;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform-origin: bottom; right;
+  transform: skewY(-5deg);
+}
+
+
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+
+
